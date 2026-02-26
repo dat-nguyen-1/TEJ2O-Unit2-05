@@ -2,7 +2,7 @@
  *
  * Created by: Dat Nguyen
  * Created on: Feb 2026
- * This program will display the current temperature on the micro:bit.
+ * This program will display the current temperature in kelvin on the micro:bit.
 */
 
 let currentTemperatureCelsius: number
