@@ -16,4 +16,4 @@ while True:
         current_temperature_celsius = temperature()
         current_temperature_kelvin = round(current_temperature_celsius + 273.15)
 
-        display.scroll("The temperature is: " + str(current_temperature_kelvin) + " C.")
+        display.scroll("The temperature is: " + str(current_temperature_kelvin) + " K.")
