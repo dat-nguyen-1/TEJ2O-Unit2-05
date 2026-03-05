@@ -19,7 +19,7 @@ input.onButtonPressed(Button.A, function () {
     currentTemperatureKelvin = currentTemperatureCelsius + 273.15
     currentTemperatureKelvin = Math.round(currentTemperatureKelvin)
 
-    // Ouput temperature in kelvin.
+    // Output temperature in kelvin.
     basic.clearScreen()
     basic.showString('The temperature is: ' + currentTemperatureKelvin.toString() + ' K.')
 })
